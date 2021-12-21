@@ -2,8 +2,6 @@ import scrapy
 from ..items import ElectricbargainstoresItem
 import requests
 import os
-# from os.path import splitext
-# from urllib.parse import urlparse
 import mimetypes
 
 
