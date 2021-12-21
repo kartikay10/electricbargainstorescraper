@@ -8,8 +8,7 @@ import scrapy
 
 
 class ElectricbargainstoresItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+    #Fields for the product details
     Name  = scrapy.Field()
     ProductCode  = scrapy.Field()
     Price  = scrapy.Field()
