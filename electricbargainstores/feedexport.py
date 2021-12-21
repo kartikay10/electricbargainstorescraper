@@ -7,6 +7,8 @@ from scrapy.utils.project import get_project_settings
 from scrapy.exporters import CsvItemExporter
 
 class CSVkwItemExporter(CsvItemExporter):
+    
+    # This module is for arranging the fields of the csv file.
 
     def __init__(self, *args, **kwargs):
         settings = get_project_settings() 
